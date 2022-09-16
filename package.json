@@ -2,9 +2,10 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe App",
+  "default": "./src/js/controller.js",
   "scripts": {
     "start": "parcel index.html",
-    "build-app": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
   "author": "King_Obobo",
   "license": "ISC",
